@@ -108,7 +108,7 @@ export default async function Page({ params: { userId } }: UserPageProps) {
                 </AlertDialogDescription>
               </AlertDialogHeader>
               <AlertDialogFooter>
-                <AlertDialogCancel>لغو</AlertDialogCancel>
+                <AlertDialogCancel className='mx-4'>لغو</AlertDialogCancel>
                 <AlertDialogRemoveButton userId={user.id} />
               </AlertDialogFooter>
             </AlertDialogContent>

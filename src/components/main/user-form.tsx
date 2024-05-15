@@ -56,6 +56,7 @@ export default function UserForm({ user = null }: { user?: User | null }) {
                 type='number'
                 id='nationalCode'
                 placeholder='کد ملی را وارد کنید'
+                pattern='\d{10}'
                 name='nationalCode'
                 required
                 defaultValue={user?.nationalCode || ''}
